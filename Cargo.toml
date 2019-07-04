@@ -1,0 +1,19 @@
+[package]
+name = "kvs"
+version = "0.1.0"
+authors = ["Eusebio <eusebiodm98@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.0"
+structopt = "0.2.18"
+
+[dev-dependencies]
+assert_cmd = "0.11.0"
+predicates = "1.0.0"
+
+[lib]
+test = false
+
+[[kvs]]
+doctest = false
