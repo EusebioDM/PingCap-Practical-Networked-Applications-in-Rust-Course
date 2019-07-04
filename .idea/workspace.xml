@@ -12,7 +12,9 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a2d8ab5-5c93-4aa1-b448-d71bfe56871c" name="Default Changelist" comment="" />
+    <list default="true" id="4a2d8ab5-5c93-4aa1-b448-d71bfe56871c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/bin/kvs.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/kvs.rs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/tests.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
+            <state relative-caret-position="609">
               <caret line="29" column="39" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="39" />
               <folding>
                 <element signature="e#186#187#0" expanded="true" />
@@ -37,30 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bin/kvs.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1575">
-              <caret line="75" column="58" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
-              <folding>
-                <element signature="e#1897#1898#0" expanded="true" />
-                <element signature="e#1943#1944#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="294">
+              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-              <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="147">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -91,8 +83,8 @@
       <list>
         <option value="$PROJECT_DIR$/tests/tests.rs" />
         <option value="$PROJECT_DIR$/Cargo.toml" />
-        <option value="$PROJECT_DIR$/src/bin/kvs.rs" />
         <option value="$PROJECT_DIR$/src/lib.rs" />
+        <option value="$PROJECT_DIR$/src/bin/kvs.rs" />
       </list>
     </option>
   </component>
@@ -154,6 +146,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -259,7 +252,7 @@
       <updated>1562187470457</updated>
       <workItem from="1562187471580" duration="162000" />
       <workItem from="1562187634093" duration="1206000" />
-      <workItem from="1562188853899" duration="9394000" />
+      <workItem from="1562188853899" duration="11325000" />
     </task>
     <servers />
   </component>
@@ -296,7 +289,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10762000" />
+    <option name="totallyTimeSpent" value="12693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="30" width="1920" height="1050" extended-state="6" />
@@ -348,9 +341,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/tests.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
+        <state relative-caret-position="609">
           <caret line="29" column="39" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="39" />
           <folding>
             <element signature="e#186#187#0" expanded="true" />
@@ -361,25 +361,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bin/kvs.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="75" column="58" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
-          <folding>
-            <element signature="e#1897#1898#0" expanded="true" />
-            <element signature="e#1943#1944#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="294">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
         </state>
       </provider>
     </entry>
