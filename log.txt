@@ -1,0 +1,4 @@
+{"Set":{"key":"algo","value":"algo"}}
+{"Set":{"key":"algo","value":"algo_mas"}}
+{"Set":{"key":"algo","value":"mas"}}
+{"Rm":{"key":"algo"}}
