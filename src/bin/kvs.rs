@@ -3,6 +3,7 @@ extern crate structopt;
 use kvs::{Result, KvStore};
 use std::io::Write;
 use structopt::StructOpt;
+use std::fmt::Error;
 
 #[derive(StructOpt)]
 #[structopt(name = "kvs")]

@@ -1,4 +1,3 @@
-{"Set":{"key":"algo","value":"algo"}}
-{"Set":{"key":"algo","value":"algo_mas"}}
-{"Set":{"key":"algo","value":"mas"}}
-{"Rm":{"key":"algo"}}
+{"Set":{"key":"algo","value":"max"}}
+{"Set":{"key":"algo2","value":"max2"}}
+{"Set":{"key":"wafa","value":"wafaculis"}}
