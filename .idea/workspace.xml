@@ -14,8 +14,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4a2d8ab5-5c93-4aa1-b448-d71bfe56871c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bin/kvs.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/kvs.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/command.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,68 +34,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bin/kvs.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="84">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="55" column="43" lean-forward="true" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lib.rs">
+        <entry file="file://$PROJECT_DIR$/src/log.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="57" column="89" selection-start-line="57" selection-start-column="89" selection-end-line="57" selection-end-column="89" />
+            <state relative-caret-position="378">
+              <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
               <folding>
-                <element signature="e#1179#1397#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.5/src/error_message.rs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#393#394#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="343" selection-start-line="343" selection-end-line="343" />
-              <folding>
-                <element signature="e#58#59#0" expanded="true" />
-                <element signature="e#75#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/liballoc/vec.rs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="1192" selection-start-line="1192" selection-end-line="1192" />
-              <folding>
-                <element signature="e#40418#40419#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/liballoc/string.rs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="1683" selection-start-line="1683" selection-end-line="1683" />
-              <folding>
-                <element signature="e#50989#50990#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,26 +65,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/command.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/tests.rs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5061">
-              <caret line="243" column="10" selection-start-line="243" selection-start-column="10" selection-end-line="243" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cargo.toml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="399">
+              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+              <folding>
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,9 +109,16 @@
         <option value="$PROJECT_DIR$/src/commands/Set.rs" />
         <option value="$PROJECT_DIR$/src/commands/Rm.rs" />
         <option value="$PROJECT_DIR$/src/commands/Get.rs" />
-        <option value="$PROJECT_DIR$/src/command.rs" />
+        <option value="$PROJECT_DIR$/src/FsMap.rs" />
+        <option value="$PROJECT_DIR$/src/FsIndex.rs" />
+        <option value="$PROJECT_DIR$/src/Result.rs" />
+        <option value="$PROJECT_DIR$/src/result.rs" />
+        <option value="$PROJECT_DIR$/src/fsIndex.rs" />
         <option value="$PROJECT_DIR$/src/bin/kvs.rs" />
+        <option value="$PROJECT_DIR$/src/fs_index.rs" />
+        <option value="$PROJECT_DIR$/src/command.rs" />
         <option value="$PROJECT_DIR$/src/lib.rs" />
+        <option value="$PROJECT_DIR$/src/log.rs" />
       </list>
     </option>
   </component>
@@ -174,10 +136,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2025" />
-    <option name="y" value="235" />
-    <option name="width" value="1717" />
-    <option name="height" value="938" />
+    <option name="x" value="1920" />
+    <option name="y" value="30" />
+    <option name="width" value="1440" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -187,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,12 +164,14 @@
             <path>
               <item name="kvs" type="b2602c69:ProjectViewProjectNode" />
               <item name="kvs" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,16 +214,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Run kvs" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
-      <option name="command" value="run --package kvs --bin kvs -- get algo2" />
-      <option name="allFeatures" value="false" />
-      <option name="nocapture" value="false" />
-      <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="Test cli_get" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="test --package kvs --test tests cli_get -- --exact" />
@@ -291,6 +244,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="Test remove_key" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package kvs --test tests remove_key -- --exact" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="Test remove_non_existent_key" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="test --package kvs --test tests remove_non_existent_key -- --exact" />
@@ -301,16 +264,61 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="kvs get k1" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package kvs --bin kvs -- set k1 nv1" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="kvs set k1 nv1" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package kvs --bin kvs -- set k1 nv1" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="kvs set k1 v1" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package kvs --bin kvs -- set k1 v1" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="kvs set k2 v2" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package kvs --bin kvs -- set k2 v2" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Cargo Command.Build" />
-      <item itemvalue="Cargo Command.Run kvs" />
+      <item itemvalue="Cargo Command.kvs set k1 v1" />
+      <item itemvalue="Cargo Command.kvs set k1 nv1" />
+      <item itemvalue="Cargo Command.kvs set k2 v2" />
+      <item itemvalue="Cargo Command.kvs get k1" />
       <item itemvalue="Cargo Command.Test cli_get" />
       <item itemvalue="Cargo Command.Test cli_rm_non_existent_key" />
       <item itemvalue="Cargo Command.Test cli_set" />
       <item itemvalue="Cargo Command.Test remove_non_existent_key" />
+      <item itemvalue="Cargo Command.Test remove_key" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo Command.Test remove_key" />
         <item itemvalue="Cargo Command.Test remove_non_existent_key" />
         <item itemvalue="Cargo Command.Test cli_rm_non_existent_key" />
         <item itemvalue="Cargo Command.Test cli_get" />
@@ -339,25 +347,13 @@
       <workItem from="1562256113698" duration="4295000" />
       <workItem from="1562351198512" duration="6892000" />
       <workItem from="1562385360207" duration="9977000" />
+      <workItem from="1562441538059" duration="6096000" />
+      <workItem from="1562807637635" duration="570000" />
+      <workItem from="1563227152792" duration="12453000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_cli_get - 2019.07.03 at 19h 23m 27s.xml">
-      <configuration name="Test cli_get" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_cli_rm - 2019.07.03 at 22h 49m 20s.xml">
-      <configuration name="Test cli_rm" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_cli_rm - 2019.07.03 at 22h 49m 40s.xml">
-      <configuration name="Test cli_rm" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_cli_version - 2019.07.03 at 22h 50m 06s.xml">
-      <configuration name="Test cli_version" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_cli_set - 2019.07.03 at 22h 50m 10s.xml">
-      <configuration name="Test cli_set" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
     <history-entry file="Test_cli_set - 2019.07.03 at 22h 50m 40s.xml">
       <configuration name="Test cli_set" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
@@ -373,15 +369,30 @@
     <history-entry file="Test_remove_non_existent_key - 2019.07.05 at 17h 44m 50s.xml">
       <configuration name="Test remove_non_existent_key" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
+    <history-entry file="Test_remove_key - 2019.07.06 at 17h 06m 34s.xml">
+      <configuration name="Test remove_key" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_remove_key - 2019.07.06 at 17h 06m 49s.xml">
+      <configuration name="Test remove_key" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_remove_key - 2019.07.06 at 17h 06m 55s.xml">
+      <configuration name="Test remove_key" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_remove_key - 2019.07.06 at 17h 07m 26s.xml">
+      <configuration name="Test remove_key" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_remove_key - 2019.07.06 at 17h 08m 58s.xml">
+      <configuration name="Test remove_key" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36257000" />
+    <option name="totallyTimeSpent" value="55376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="30" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26627535" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20490928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -407,6 +418,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/tests/tests.rs</url>
+          <line>248</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="CidrExceptionBreakpoint">
           <properties />
@@ -490,65 +508,6 @@
     <entry file="file://$PROJECT_DIR$/src/commands/Get.rs" />
     <entry file="file://$PROJECT_DIR$/src/commands/Set.rs" />
     <entry file="file://$PROJECT_DIR$/src/commands/Rm.rs" />
-    <entry file="file://$PROJECT_DIR$/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/tests.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5061">
-          <caret line="243" column="10" selection-start-line="243" selection-start-column="10" selection-end-line="243" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cargo.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/command.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/liballoc/string.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="1683" selection-start-line="1683" selection-end-line="1683" />
-          <folding>
-            <element signature="e#50989#50990#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/liballoc/vec.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="1192" selection-start-line="1192" selection-end-line="1192" />
-          <folding>
-            <element signature="e#40418#40419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="343" selection-start-line="343" selection-end-line="343" />
-          <folding>
-            <element signature="e#58#59#0" expanded="true" />
-            <element signature="e#75#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.5/src/error_message.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -559,19 +518,150 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7161">
+          <caret line="343" selection-start-line="343" selection-end-line="343" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/liballoc/vec.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24549">
+          <caret line="1192" selection-start-line="1192" selection-end-line="1192" />
+          <folding>
+            <element signature="e#40418#40419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/tests.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="270" column="19" lean-forward="true" selection-start-line="270" selection-start-column="19" selection-end-line="270" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/liballoc/string.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="2050" selection-start-line="2050" selection-end-line="2050" />
+          <folding>
+            <element signature="e#50942#50943#0" expanded="true" />
+            <element signature="e#50989#50990#0" expanded="true" />
+            <element signature="e#61823#61824#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.5/src/backtrace/internal.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.5/src/backtrace/mod.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.5/src/error/error_impl.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.5/src/error/mod.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FsMap.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/result.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/bin/kvs.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="84">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fs_index.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding>
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="57" column="89" selection-start-line="57" selection-start-column="89" selection-end-line="57" selection-end-column="89" />
+        <state relative-caret-position="252">
+          <caret line="55" column="43" lean-forward="true" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
           <folding>
-            <element signature="e#1179#1397#0" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
           </folding>
         </state>
       </provider>

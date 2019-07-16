@@ -3,7 +3,6 @@ extern crate structopt;
 use kvs::{Result, KvStore};
 use std::io::Write;
 use structopt::StructOpt;
-use std::fmt::Error;
 
 #[derive(StructOpt)]
 #[structopt(name = "kvs")]
@@ -46,7 +45,12 @@ fn main() -> Result<()> {
                 .unwrap_or("Key not found".to_string());
             println!("{}", value);
         }
-        Some(KvsSubCommands::Set { key, value }) => kvs.set(key, value)?,
+        Some(KvsSubCommands::Set { key, value }) => {
+            let val = kvs.set(key, value);
+            if val.is_err() {
+                println!("Key not found");
+            }
+        }
         Some(KvsSubCommands::Rm { key }) => {
             let removed = kvs.remove(key);
             if removed.is_err() {
