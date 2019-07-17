@@ -1,13 +1,12 @@
 mod command;
-mod result;
 mod fs_index;
 mod log;
+mod result;
 
-use std::path::Path;
 use command::Command;
 use fs_index::FsIndex;
 use log::Log;
-
+use std::path::Path;
 
 pub type Result<T> = result::Result<T>;
 type LogPointer = u64;
@@ -34,16 +33,16 @@ impl KvStore {
 
         match value {
             Some(value) => Ok(Some(value)),
-            None => Err(failure::err_msg("Corrupt data, command found has no value"))
+            None => Err(failure::err_msg("Corrupt data, command found has no value")),
         }
     }
 
     pub fn set(&mut self, key: String, value: String) -> Result<()> {
         if self.index.contains(&key) {
             let new_index = self.log.remove(&key)?;
-            self.index.rebuild(new_index);
+            self.index.rebuild(new_index)?;
         }
-        let command = Command::Set {key, value};
+        let command = Command::Set { key, value };
         let pointer = self.log.append(&command)?;
 
         self.index.add(command.get_key(), pointer)?;
@@ -54,13 +53,12 @@ impl KvStore {
         let pointer = self.index.get(&key);
 
         match pointer {
-            None => return Err(failure::err_msg("Key not found")),
+            None => Err(failure::err_msg("Key not found")),
             Some(_) => {
                 let new_command_pointers = self.log.remove(&key)?;
 
                 self.index.rebuild(new_command_pointers)
             }
         }
-
     }
 }

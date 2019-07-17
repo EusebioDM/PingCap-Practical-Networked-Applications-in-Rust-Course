@@ -1,9 +1,9 @@
-use super::Result;
 use super::LogPointer;
-use std::path::{Path, PathBuf};
+use super::Result;
 use std::collections::HashMap;
 use std::fs::File;
 use std::io::Write;
+use std::path::{Path, PathBuf};
 
 const FILE_NAME: &str = "index.txt";
 
@@ -58,8 +58,7 @@ impl FsIndex {
     }
 
     pub fn get(&self, key: &str) -> Option<LogPointer> {
-        self.map.get(key)
-            .map(|p| *p)
+        self.map.get(key).cloned()
     }
 
     #[allow(dead_code)]

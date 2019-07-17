@@ -1,6 +1,6 @@
 extern crate structopt;
 
-use kvs::{Result, KvStore};
+use kvs::{KvStore, Result};
 use std::io::Write;
 use structopt::StructOpt;
 
@@ -16,18 +16,11 @@ struct KvsCommand {
 #[derive(StructOpt)]
 enum KvsSubCommands {
     #[structopt(name = "get")]
-    Get {
-        key: String
-    },
+    Get { key: String },
     #[structopt(name = "set")]
-    Set {
-        key: String,
-        value: String,
-    },
+    Set { key: String, value: String },
     #[structopt(name = "rm")]
-    Rm {
-        key: String
-    },
+    Rm { key: String },
 }
 
 fn main() -> Result<()> {
@@ -41,15 +34,14 @@ fn main() -> Result<()> {
     }
     match opt.cmd {
         Some(KvsSubCommands::Get { key }) => {
-            let value = kvs.get(key)?
-                .unwrap_or("Key not found".to_string());
+            let value = kvs.get(key)?.unwrap_or_else(|| "Key not found".to_string());
             println!("{}", value);
         }
         Some(KvsSubCommands::Set { key, value }) => {
             let val = kvs.set(key, value);
             if val.is_err() {
                 // println!("Key not found");
-                println!("{}",val.err().unwrap());
+                println!("{}", val.err().unwrap());
             }
         }
         Some(KvsSubCommands::Rm { key }) => {
@@ -59,12 +51,11 @@ fn main() -> Result<()> {
                 std::process::exit(1);
             }
         }
-        None => unimplemented_exit()
+        None => unimplemented_exit(),
     }
 
     Ok(())
 }
-
 
 fn unimplemented_exit() {
     std::io::stderr().write_all(b"unimplemented\n").unwrap();

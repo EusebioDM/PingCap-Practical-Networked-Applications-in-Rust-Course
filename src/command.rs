@@ -1,6 +1,6 @@
 extern crate serde;
 
-use serde::{Serialize, Deserialize};
+use serde::{Deserialize, Serialize};
 
 #[derive(Serialize, Deserialize)]
 pub enum Command {
@@ -13,8 +13,8 @@ impl Command {
     pub fn get_key(&self) -> &str {
         match self {
             Command::Get { key } => key,
-            Command::Set { key, value: _ } => key,
-            Command::Rm { key } => key
+            Command::Set { key, .. } => key,
+            Command::Rm { key } => key,
         }
     }
 
@@ -22,7 +22,7 @@ impl Command {
         match self {
             Command::Get { key } => format!("get {}\n", key),
             Command::Set { key, value } => format!("set {} {}\n", key, value),
-            Command::Rm { key } => format!("rm {}\n", key)
+            Command::Rm { key } => format!("rm {}\n", key),
         }
     }
 
@@ -33,18 +33,25 @@ impl Command {
         let value = values.next();
 
         match command_name {
-            "get" => Some(Command::Get { key: key?.to_string() }),
-            "set" => Some(Command::Set { key: key?.to_string(), value: value?.to_string() }),
-            "rm" => Some(Command::Rm { key: key?.to_string() }),
-            _ => None
+            "get" => Some(Command::Get {
+                key: key?.to_string(),
+            }),
+            "set" => Some(Command::Set {
+                key: key?.to_string(),
+                value: value?.to_string(),
+            }),
+            "rm" => Some(Command::Rm {
+                key: key?.to_string(),
+            }),
+            _ => None,
         }
     }
 
     pub fn get_value(&self) -> Option<String> {
         match self {
-            Command::Get { key: _ } => None,
-            Command::Set { key: _, value } => Some(value.to_string()),
-            Command::Rm { key: _ } => None
+            Command::Get { .. } => None,
+            Command::Set { value, .. } => Some(value.to_string()),
+            Command::Rm { .. } => None,
         }
     }
 }
