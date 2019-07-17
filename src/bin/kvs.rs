@@ -48,7 +48,8 @@ fn main() -> Result<()> {
         Some(KvsSubCommands::Set { key, value }) => {
             let val = kvs.set(key, value);
             if val.is_err() {
-                println!("Key not found");
+                // println!("Key not found");
+                println!("{}",val.err().unwrap());
             }
         }
         Some(KvsSubCommands::Rm { key }) => {
