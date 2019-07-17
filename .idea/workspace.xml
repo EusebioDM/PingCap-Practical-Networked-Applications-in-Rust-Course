@@ -12,7 +12,10 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a2d8ab5-5c93-4aa1-b448-d71bfe56871c" name="Default Changelist" comment="" />
+    <list default="true" id="4a2d8ab5-5c93-4aa1-b448-d71bfe56871c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
-              <caret line="3" column="69" lean-forward="true" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
+              <caret line="3" column="69" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cargo.toml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -58,7 +70,6 @@
         <option value="$PROJECT_DIR$/src/tests/tests.rs" />
         <option value="$PROJECT_DIR$/tests/tests.rs" />
         <option value="$PROJECT_DIR$/src/commands.rs" />
-        <option value="$PROJECT_DIR$/Cargo.toml" />
         <option value="$PROJECT_DIR$/src/commands/Set.rs" />
         <option value="$PROJECT_DIR$/src/commands/Rm.rs" />
         <option value="$PROJECT_DIR$/src/commands/Get.rs" />
@@ -73,6 +84,7 @@
         <option value="$PROJECT_DIR$/src/log.rs" />
         <option value="$PROJECT_DIR$/src/bin/kvs.rs" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Cargo.toml" />
       </list>
     </option>
   </component>
@@ -296,7 +308,7 @@
       <workItem from="1562441538059" duration="6096000" />
       <workItem from="1562807637635" duration="570000" />
       <workItem from="1563227152792" duration="12453000" />
-      <workItem from="1563317969162" duration="9247000" />
+      <workItem from="1563317969162" duration="9438000" />
     </task>
     <servers />
   </component>
@@ -333,7 +345,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64623000" />
+    <option name="totallyTimeSpent" value="64814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="30" width="1920" height="1050" extended-state="6" />
@@ -468,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cargo.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.5/src/backtrace/internal.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -593,7 +598,14 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="3" column="69" lean-forward="true" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
+          <caret line="3" column="69" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
